@@ -1,0 +1,44 @@
+{
+  "verified_on": "2026-09-14",
+  "available_files": [
+    {
+      "github_path": "steam_network.json",
+      "huggingface_path": "steam_network_full.json",
+      "bytes": 42249061,
+      "sha256": "512eafbf312743aa7768a9c1c0fc17b49089bb85640c9bfe8e5265e7d8d9dd2d",
+      "nodes": 25996,
+      "links": 861232,
+      "min_weight": 5,
+      "max_weight": 694377
+    },
+    {
+      "github_path": "steam_all_2005.json",
+      "huggingface_path": "steam_all_2005.json",
+      "bytes": 6482810,
+      "sha256": "c866646dc9918fddc64c63a181516f7f9c9bcb901591bc1fb26238a1c82b9b23",
+      "records": 82928,
+      "fields_per_record": 9
+    },
+    {
+      "github_path": "steam_force_layout.json",
+      "huggingface_path": "steam_force_layout.json",
+      "bytes": 257523,
+      "sha256": "1774156aa95e9582fa37412eb968da973744124dd3b6f8fba9b27bb35d638dae",
+      "positions": 8905
+    }
+  ],
+  "unavailable_full_graph": {
+    "github_pointer_path": "steam_network_full.json",
+    "pointer_bytes": 135,
+    "expected_bytes": 1423482375,
+    "expected_sha256": "f73197543ac056b56ffdb4ec73bdc94684721b47c46072d42b0cc9479f2d502d",
+    "status": "Payload unavailable in inspected copies; pointer and history retained",
+    "historically_claimed_nodes": 48362,
+    "historically_claimed_links": 33041298
+  },
+  "sources": {
+    "metadata": "https://huggingface.co/datasets/FronkonGames/steam-games-dataset",
+    "reviews": "https://www.kaggle.com/datasets/artermiloff/steam-games-reviews-2024"
+  },
+  "historical_input_revision_hashes_recorded": false
+}
